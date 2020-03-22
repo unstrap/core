@@ -1,6 +1,6 @@
-import test from './components/core';
+import test from './components/card';
 
 
 export {
-  core
+  card
 }

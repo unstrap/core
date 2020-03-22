@@ -1,6 +1,6 @@
 {
   "name": "@unstrap/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Component library for tripledollar",
   "main": "index.js",
   "directories": {
