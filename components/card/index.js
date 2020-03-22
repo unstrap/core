@@ -9,4 +9,4 @@ function card(props) {
 	return elem;
 }
 
-export { card };
+export default card;
