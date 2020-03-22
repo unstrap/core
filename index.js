@@ -1,4 +1,4 @@
-import test from './components/card';
+import card from './components/card';
 
 
 export {
