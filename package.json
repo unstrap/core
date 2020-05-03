@@ -1,6 +1,6 @@
 {
   "name": "@unstrap/core",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Component library for tripledollar",
   "main": "index.js",
   "directories": {
@@ -28,5 +28,8 @@
     "less": "^3.11.1",
     "tripledollar": ">=1.6.3"
   },
-  "homepage": "https://github.com/unstrap/core#readme"
+  "homepage": "https://github.com/unstrap/core#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
 }

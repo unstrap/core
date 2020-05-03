@@ -1,12 +1,16 @@
 import $$$ from "tripledollar";
 import './style.less';
 
-function card(props) {
-	let elem = $$$('div.unstrap-card')
-	if (props.children) {
-		elem.ins(props.children);
+export default {
+	name: 'unstrap-card',
+	selectors: ['.unstrap-card'],
+	extend: () => {},
+	render: (props) => {
+		props = props || {};
+		let elem = $$$('div.unstrap-card');
+		if (props.children) {
+			elem.ins(props.children);
+		}
+		return elem;
 	}
-	return elem;
 }
-
-export default card;
