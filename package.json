@@ -1,6 +1,6 @@
 {
   "name": "@unstrap/core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Component library for tripledollar",
   "main": "index.js",
   "directories": {
@@ -26,7 +26,7 @@
     "@rollup/plugin-node-resolve": "^7.1.1",
     "rollup-plugin-postcss": ">=2.5.0",
     "less": "^3.11.1",
-    "tripledollar": ">=1.6.3"
+    "tripledollar": ">=1.7.5"
   },
   "homepage": "https://github.com/unstrap/core#readme",
   "dependencies": {
